@@ -37,6 +37,8 @@ group :development, :test do
   gem 'database_cleaner'
 end
 
+# Use unicorn as the app server
+gem 'unicorn'
 
 if ENV['TRAVIS'] == 'true'
   group :test do
