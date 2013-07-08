@@ -63,10 +63,10 @@ Fulcrum::Application.configure do
   config.action_mailer.smtp_settings = {
     address: smtp.gmail.com,
     port: 587,
-    domain: "adskom.com",
-    authentication: "plain",
+    domain: 'adskom.com',
+    authentication: 'plain',
     enable_starttls_auto: true,
-    user_name: headless@adskom.com,
+    user_name: 'headless@adskom.com',
     password: config.fulcrum.smtp_password
   }
 end
